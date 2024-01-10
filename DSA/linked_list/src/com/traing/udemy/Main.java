@@ -10,8 +10,13 @@ public class Main {
         myLinkList.append(3);
         myLinkList.append(4);
 
-	    System.out.println(myLinkList.get(2).values + "\n");
-
         myLinkList.printList();
+
+        myLinkList.set(2,8);
+
+	    System.out.println("----");
+
+	    myLinkList.printList();
+
     }
 }
